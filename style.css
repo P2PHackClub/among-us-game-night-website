@@ -1,0 +1,43 @@
+h1 {
+    display: block;
+    text-align: center;
+    font-size: 32px;
+    text-shadow: 3px 3px 1px lightgreen;
+    padding: 0px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 5px solid darkblue;
+    background: radial-gradient(circle at 100% 50%, transparent 20%, #00D4F0 21%, #00D4F0 34%, transparent 35%, transparent), radial-gradient(circle at 0% 50%, transparent 20%, #00D4F0 21%, #00D4F0 34%, transparent 35%, transparent) 0 -50px;
+    background-color: coral;
+    background-size: 75px 100px;
+    font-family: 'Kalam';
+}
+
+h2 {
+  font-size: 24px;
+  text-align: center;
+}
+
+p {
+  font-size: 14px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+ol {
+  font-size: 12px;
+}
+
+
+html {
+  background-color: #55FFFF;
+}
+
+body {
+  margin-left: 15vw;
+  margin-right: 15vw;
+  margin-top: 2vw;
+  font-size: 1.2vw;
+}

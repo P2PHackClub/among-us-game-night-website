@@ -1,13 +1,13 @@
 h1 {
     display: block;
     text-align: center;
-    font-size: 32px;
+    font-size: 48px;
     text-shadow: 3px 3px 1px lightgreen;
     padding: 0px;
     text-transform: uppercase;
     text-align: center;
     border: 5px solid darkblue;
-    background: radial-gradient(circle at 100% 50%, transparent 20%, #00D4F0 21%, #00D4F0 34%, transparent 35%, transparent), radial-gradient(circle at 0% 50%, transparent 20%, #00D4F0 21%, #00D4F0 34%, transparent 35%, transparent) 0 -50px;
+  
     background-color: coral;
     background-size: 75px 100px;
     font-family: 'Kalam';
@@ -16,6 +16,10 @@ h1 {
 h2 {
   font-size: 24px;
   text-align: center;
+  border: 5px solid darkblue;
+  background-color: coral;
+    background-size: 75px 100px;
+    font-family: 'Kalam';
 }
 
 p {
@@ -35,17 +39,26 @@ h4{
 }
 
 html {
-  background-color: #66ff66;
+ 
 }
 
 body {
   margin-left: 15vw;
   margin-right: 15vw;
-  margin-top: 2vw;
+  margin-top: 0.5vw;
   font-size: 1.2vw;
+  font-family: 'Courier New', Courier, monospace;
+color: white;
 }
 
 img {
   width: 100px;
   height: 100px;
 }
+
+a{
+ text-emphasis: bold;
+ color: cyan;
+ font-family: 'Kalam';
+}
+

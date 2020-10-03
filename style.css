@@ -62,3 +62,7 @@ a{
  font-family: 'Kalam';
 }
 
+body{ 
+ background-image: url(Images/Stars.JPG) ;
+background-size: cover;
+}

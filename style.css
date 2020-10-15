@@ -5,37 +5,40 @@ h1 {
     text-shadow: 3px 3px 1px lightgreen;
     padding: 0px;
     text-transform: uppercase;
-    text-align: center;
     border: 5px solid darkblue;
-  
+
     background-color: coral;
     background-size: 75px 100px;
-    font-family: 'Kalam';
+    font-family: 'Kalam', serif;
 }
 
 h2 {
-  font-size: 24px;
-  text-align: center;
-  border: 5px solid darkblue;
-  background-color: coral;
+    font-size: 24px;
+    text-align: center;
+    border: 5px solid darkblue;
+    background-color: coral;
     background-size: 75px 100px;
-    font-family: 'Kalam';
+    font-family: 'Kalam', serif;
 }
 
 p {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 h3 {
-  font-size: 16px;
+    font-size: 16px;
 }
 
 ol {
-  font-size: 12px;
+    font-size: 12px;
+}
+
+li {
+    padding: 5px;
 }
 
 h4{
-  font-size: 11px;
+    font-size: 11px;
 }
 
 html {
@@ -43,26 +46,69 @@ html {
 }
 
 body {
-  margin-left: 15vw;
-  margin-right: 15vw;
-  margin-top: 0.5vw;
-  font-size: 1.2vw;
-  font-family: 'Courier New', Courier, monospace;
-color: white;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-top: 0.5vw;
+    font-size: 1.2vw;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
 }
 
 img {
-  width: 100px;
-  height: 100px;
+    width: 100px;
+    height: 100px;
 }
 
 a{
- text-emphasis: bold;
- color: cyan;
- font-family: 'Kalam';
+    font-weight: bold;
+    color: cyan;
+    font-family: 'Kalam', serif;
 }
 
-body{ 
- background-image: url(Images/Stars.JPG) ;
-background-size: cover;
+body{
+    background-image: url(Images/Stars.JPG) ;
+    background-size: cover;
+}
+
+footer {
+    display: block;
+    font-family: 'minecraftregular', serif;
+    font-size: 60%;
+    text-align: center;
+    color: rgb(108, 108, 108);
+    padding: 0;
+    margin-top: 0;
+}
+
+.grid-container {
+    display: grid;
+    margin-top: 5vh;
+    margin-left: 1vw;
+    margin-right: 1vh;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-item {
+    text-align: center;
+    margin: 2vw auto;
+}
+
+.discord-widget {
+    background-color: transparent;
+    border: none;
+    display: block;
+    height: 40vh;
+    width: 50vh;
+}
+
+#pre-date, #date, #post-date {
+    display: none;
+}
+
+#countdown {
+    margin: 0;
+    font-size: 5vw;
+    text-align: center;
 }

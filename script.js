@@ -39,3 +39,4 @@ var x = setInterval(function() {
         document.getElementById("pre-date").style.display = "block";
     }
 }, 1000);
+

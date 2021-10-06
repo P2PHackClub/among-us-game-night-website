@@ -1,5 +1,4 @@
 # among-us-game-night-website
-# among-us-game-night-website
 [![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](https://makeapullrequest.com)
 [![first-timers-only Friendly](https://img.shields.io/badge/first--timers--only-friendly-blue.svg)](https://www.firsttimersonly.com/)
 ![GitHub Hacktoberfest combined status](https://img.shields.io/github/hacktoberfest/2021/P2PHackClub/among-us-game-night-website)
